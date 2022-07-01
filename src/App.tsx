@@ -1,10 +1,7 @@
 import {
   DbProvider,
   EnsureDbLoaded,
-  IDbBackend,
   IInitDbClientConfig,
-  IQuery,
-  IQueryResult,
   migrationsPlugin,
   reactiveQueriesPlugin,
 } from "@trong-orm/react";
