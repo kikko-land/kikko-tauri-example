@@ -420,10 +420,25 @@
     broadcast-channel "^4.12.0"
     rxjs "^7.5.5"
 
+"@trong-orm/sql.js@^1.6.7":
+  version "1.6.7"
+  resolved "https://registry.yarnpkg.com/@trong-orm/sql.js/-/sql.js-1.6.7.tgz#7586a7513f7bf2d48173876e630f0e083cfbc2c5"
+  integrity sha512-A9Yz/EdUPzic2c1vcOllwCh7RJ7otsBfp9xsEqvpByKyKUVTXZHSwfnRYSApmwL5ferRXlNcz9iAKMKnQjO6DQ==
+
 "@trong-orm/sql@^1.0.47":
   version "1.0.47"
   resolved "https://registry.yarnpkg.com/@trong-orm/sql/-/sql-1.0.47.tgz#137541ab616297ad56995e938aa3f50f08f75481"
   integrity sha512-bk9CpxbINLRZ1wNP5UUjFnNiUB16D7MrbkkDH2+Vjshw5Foyc2rdFb0x+jI+BaqnE7nWV1RyQbErlOWNxkWsZg==
+
+"@trong-orm/tauri-backend@^1.0.47":
+  version "1.0.47"
+  resolved "https://registry.yarnpkg.com/@trong-orm/tauri-backend/-/tauri-backend-1.0.47.tgz#21031b320272dc73ea0e73df8146fb41732abb44"
+  integrity sha512-S+vKUN4QueG3Rgsf2PhAmtYyvGmR0siwfkQTT8RJLYAzUOY/uxdOYWjB5wpvddjblJ/rAXwmVYfpfuLfuwAC1Q==
+  dependencies:
+    "@trong-orm/core" "^1.0.47"
+    "@trong-orm/sql" "^1.0.47"
+    "@trong-orm/sql.js" "^1.6.7"
+    tauri-plugin-sqlite-api "github:lzdyes/tauri-plugin-sqlite#v0.1.0"
 
 "@types/lodash-es@^4.17.6":
   version "4.17.6"
