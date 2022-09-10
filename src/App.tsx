@@ -4,8 +4,8 @@ import {
   IInitDbClientConfig,
   migrationsPlugin,
   reactiveQueriesPlugin,
-} from "@trong-orm/react";
-import { tauriBackend } from "@trong-orm/tauri-backend";
+} from "@kikko-land/react";
+import { tauriBackend } from "@kikko-land/tauri-backend";
 
 import { List } from "./List";
 import { createNotesTableMigration } from "./migrations/createNotesTable";
